@@ -5,8 +5,9 @@ function raise_up(jquery) {
 			$(this).addClass( "highlighted" );
 
 	});
-	}
+}
 
 $(document).ready(raise_up);
+alert("dready taht yuo want")
 $(document).on("page:load", raise_up);
-
+alert("page load that you want")
